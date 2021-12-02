@@ -1,0 +1,820 @@
+
+
+/*-----------------------------------LOGO--------------------------------------------*/
+#logo1{
+  height: 80px;
+}
+
+.section5{
+  z-index: 1000;
+  position: fixed;
+  background-color: #F2C6A1;
+  text-align: center;
+  height: 10%;
+  width: 100%;
+}
+
+/*------------------------------BIENVENIDA-------------------------------------------*/
+.section1{
+  margin-top: 30px;
+	background-image: url(https://http2.mlstatic.com/D_NQ_NP_896291-MLA43484325523_092020-W.jpg);
+	width: 100%;
+	height: 670px;
+	padding-top: 70px;
+	background-size: cover;
+}
+
+.cinta1{
+
+  top: 15%;
+  left:60%;
+  width: 25%;
+  padding: 15px;
+  color: black;
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.cinta2{
+
+  top: 10%;
+  left:60%;
+  padding: 15px;
+  color: black;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.titulo{
+  letter-spacing: 6px;
+  font-weight:100;
+}
+
+p{
+  font-weight:350;
+}
+
+/*---------------------------------------CARRUSEL----------------------------------------------*/
+.section2{
+	width: 70%;
+	height: 800px;
+  margin-left: 16%;
+}
+
+.carousel-inner{
+  margin-top: 20px;
+  height: 800px;
+}
+
+
+
+/*----------------------------------PRODUCTOS FAVORITOS-------------------------------------------*/
+
+#titulo-productos{
+    text-align: center;
+    padding-top: 5%;
+    color: black;
+    font-size: 40px;
+    font-weight: 100;
+    letter-spacing: 6px;
+}
+.container {
+    height: 100vh;
+    width: 100vw;
+    max-height: 200px;
+    max-width: 1280px;
+    min-height: 600px;
+    min-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .border {
+    height: 369px;
+    width: 290px;
+    background: transparent;
+    border-radius: 10px;
+    transition: border 1s;
+    position: relative;
+  }
+  .border:hover {
+    border: 1px solid #fff;
+  }
+  .card {
+    height: 379px;
+    width: 300px;
+    background: #808080;
+    border-radius: 10px;
+    transition: background 0.8s;
+    overflow: hidden;
+    background: #000;
+    box-shadow: 0 70px 63px -60px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .card0 {
+    background: url("http://d3ugyf2ht6aenh.cloudfront.net/stores/001/324/789/products/7ffef8ca-81d7-476b-992a-a8505c3362951-0cf95a68420da5cb7c16195449672596-640-0.jpeg") center center no-repeat;
+    background-size: 300px;
+  }
+  .card0:hover {
+    background: url("http://d3ugyf2ht6aenh.cloudfront.net/stores/001/324/789/products/7ffef8ca-81d7-476b-992a-a8505c3362951-0cf95a68420da5cb7c16195449672596-640-0.jpeg") left center no-repeat;
+    background-size: 600px;
+  }
+  .card0:hover h2 {
+    opacity: 1;
+  }
+  .card0:hover .fa {
+    opacity: 1;
+  }
+  .card1 {
+    background: url("https://static2.diariosur.es/www/multimedia/201910/08/media/MM-DIADEMAS/acolchadastrasshm.jpg") center center no-repeat;
+    background-size: 300px;
+  }
+  .card1:hover {
+    background: url("https://static2.diariosur.es/www/multimedia/201910/08/media/MM-DIADEMAS/acolchadastrasshm.jpg") left center no-repeat;
+    background-size: 600px;
+  }
+  .card1:hover h2 {
+    opacity: 1;
+  }
+  .card1:hover .fa {
+    opacity: 1;
+  }
+  .card2 {
+    background: url("https://s.fenicio.app/f/sym/catalogo/articulos/S12ER10-55-1_2000-2000_1613578402_45d.jpg") center center no-repeat;
+    background-size: 300px;
+  }
+  .card2:hover {
+    background: url("https://s.fenicio.app/f/sym/catalogo/articulos/S12ER10-55-1_2000-2000_1613578402_45d.jpg") left center no-repeat;
+    background-size: 600px;
+  }
+  .card2:hover h2 {
+    opacity: 1;
+  }
+  .card2:hover .fa {
+    opacity: 1;
+  }
+  h2 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #fff;
+    margin: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  .fa {
+    opacity: 0;
+    transition: opacity 1s;
+  }
+
+.section3{
+    height: 800px;
+}
+
+
+/*------------------------------------LISTA BOTONES-------------------------------------------*/
+.botones-productos{
+  padding-top:9%;
+  margin-left: 18%;
+}
+
+.btn{
+  margin:2%;
+}
+
+
+/*----------------------------------LISTA PRODUCTOS-------------------------------------------*/
+
+#titulo-productos{
+  text-align: center;
+  padding-top: 5%;
+  color: black;
+  font-size: 40px;
+  font-weight: 100;
+  letter-spacing: 6px;
+}
+
+.border {
+  height: 369px;
+  width: 290px;
+  background: transparent;
+  border-radius: 10px;
+  transition: border 1s;
+  position: relative;
+}
+.border:hover {
+  border: 1px solid #fff;
+}
+.card {
+  height: 379px;
+  width: 300px;
+  background: #808080;
+  border-radius: 10px;
+  transition: background 0.8s;
+  overflow: hidden;
+  background: #000;
+  box-shadow: 0 70px 63px -60px #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.card0 {
+  background: url("http://d3ugyf2ht6aenh.cloudfront.net/stores/001/324/789/products/7ffef8ca-81d7-476b-992a-a8505c3362951-0cf95a68420da5cb7c16195449672596-640-0.jpeg") center center no-repeat;
+  background-size: 300px;
+}
+.card0:hover {
+  background: url("http://d3ugyf2ht6aenh.cloudfront.net/stores/001/324/789/products/7ffef8ca-81d7-476b-992a-a8505c3362951-0cf95a68420da5cb7c16195449672596-640-0.jpeg") left center no-repeat;
+  background-size: 600px;
+}
+.card0:hover h2 {
+  opacity: 1;
+}
+.card0:hover .fa {
+  opacity: 1;
+}
+.card1 {
+  background: url("https://static2.diariosur.es/www/multimedia/201910/08/media/MM-DIADEMAS/acolchadastrasshm.jpg") center center no-repeat;
+  background-size: 300px;
+}
+.card1:hover {
+  background: url("https://static2.diariosur.es/www/multimedia/201910/08/media/MM-DIADEMAS/acolchadastrasshm.jpg") left center no-repeat;
+  background-size: 600px;
+}
+.card1:hover h2 {
+  opacity: 1;
+}
+.card1:hover .fa {
+  opacity: 1;
+}
+.card2 {
+  background: url("https://s.fenicio.app/f/sym/catalogo/articulos/S12ER10-55-1_2000-2000_1613578402_45d.jpg") center center no-repeat;
+  background-size: 300px;
+}
+.card2:hover {
+  background: url("https://s.fenicio.app/f/sym/catalogo/articulos/S12ER10-55-1_2000-2000_1613578402_45d.jpg") left center no-repeat;
+  background-size: 600px;
+}
+.card2:hover h2 {
+  opacity: 1;
+}
+.card2:hover .fa {
+  opacity: 1;
+}
+
+.card4 {
+  background: url("https://ar.todomoda.com/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/7/9/79104001.Jpg") center center no-repeat;
+  background-size: 500px;
+}
+.card4:hover {
+  background: url("https://ar.todomoda.com/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/7/9/79104001.Jpg") left center no-repeat;
+  background-size: 555px;
+}
+.card4:hover h2 {
+  opacity: 1;
+}
+.card4:hover .fa {
+  opacity: 1;
+}
+
+
+
+.card5 {
+  background: url("https://ar.todomoda.com/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/7/4/74298904.jpg") center center no-repeat;
+  background-size: 380px;
+}
+.card5:hover {
+  background: url("https://ar.todomoda.com/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/7/4/74298904.jpg") left center no-repeat;
+  background-size: 550px;
+}
+.card5:hover h2 {
+  opacity: 1;
+}
+.card5:hover .fa {
+  opacity: 1;
+}
+
+
+
+.card6 {
+  background: url("https://ar.todomoda.com/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/7/4/74798801.Jpg") center center no-repeat;
+  background-size: 380px;
+}
+.card6:hover {
+  background: url("https://ar.todomoda.com/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/7/4/74798801.Jpg") left center no-repeat;
+  background-size: 550px;
+}
+.card6:hover h2 {
+  opacity: 1;
+}
+.card6:hover .fa {
+  opacity: 1;
+}
+
+.card7 {
+  background: url("https://ar.todomoda.com/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/7/0/70702302.Jpeg") center center no-repeat;
+  background-size: 440px;
+}
+.card7:hover {
+  background: url("https://ar.todomoda.com/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/7/0/70702302.Jpeg") left center no-repeat;
+  background-size: 550px;
+}
+.card07:hover h2 {
+  opacity: 1;
+}
+.card7:hover .fa {
+  opacity: 1;
+}
+
+
+.card8 {
+  background: url("https://ar.todomoda.com/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/7/4/74677501.Jpg") center center no-repeat;
+  background-size: 490px;
+}
+.card8:hover {
+  background: url("https://ar.todomoda.com/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/7/4/74677501.Jpg") left center no-repeat;
+  background-size: 500px;
+}
+.card8:hover h2 {
+  opacity: 1;
+}
+.card8:hover .fa {
+  opacity: 1;
+}
+
+
+.card9 {
+  background: url("https://ar.todomoda.com/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/7/4/74625803.Jpeg") center center no-repeat;
+  background-size: 400px;
+}
+.card9:hover {
+  background: url("https://ar.todomoda.com/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/7/4/74625803.Jpeg") left center no-repeat;
+  background-size: 600px;
+}
+.card9:hover h2 {
+  opacity: 1;
+}
+.card9:hover .fa {
+  opacity: 1;
+}
+
+
+
+.card10 {
+  background: url("https://ar.todomoda.com/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/7/9/79092601.Jpg") center center no-repeat;
+  background-size: 380px;
+}
+.card10:hover {
+  background: url("https://ar.todomoda.com/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/7/9/79092601.Jpg") left center no-repeat;
+  background-size: 550px;
+}
+.card10:hover h2 {
+  opacity: 1;
+}
+.card10:hover .fa {
+  opacity: 1;
+}
+
+
+.card11 {
+  background: url("https://ar.todomoda.com/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/7/6/76264101.jpg") center center no-repeat;
+  background-size: 380px;
+}
+.card11:hover {
+  background: url("https://ar.todomoda.com/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/7/6/76264101.jpg") left center no-repeat;
+  background-size: 550px;
+}
+.card11:hover h2 {
+  opacity: 1;
+}
+.card11:hover .fa {
+  opacity: 1;
+}
+
+
+
+.card12 {
+  background: url("https://ar.todomoda.com/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/7/4/74925201.Jpg") center center no-repeat;
+  background-size: 380px;
+}
+.card12:hover {
+  background: url("https://ar.todomoda.com/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/7/4/74925201.Jpg") left center no-repeat;
+  background-size: 500px;
+}
+.card12:hover h2 {
+  opacity: 1;
+}
+.card12:hover .fa {
+  opacity: 1;
+}
+
+
+h2 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #fff;
+  margin: 20px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.fa {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.section10{
+  height: 500px;
+  padding-bottom: 40%;
+}
+#section11{
+  height: 300px;
+  padding-bottom: 30%;
+}
+/*----------------------------------FOOTER--------------------------------------------*/
+
+body {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    grid-template-areas: "main" "footer";
+    overflow-x: hidden;
+    background: #f5f7fa;
+    min-height: 10vh;
+    font-family: "Open Sans", sans-serif;
+  }
+
+
+#datos-contacto li{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 8px;
+    padding-top: 3%;
+    padding-left: 17%;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+body .footer {
+    z-index: 1;
+    --footer-background: #F2C6A1;
+    display: grid;
+    position: relative;
+
+    min-height: 11rem;
+  }
+  body .footer .bubbles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1rem;
+    background: var(--footer-background);
+    filter: url("#blob");
+  }
+  body .footer .bubbles .bubble {
+    position: absolute;
+    left: var(--position, 50%);
+    background: var(--footer-background);
+    border-radius: 100%;
+    -webkit-animation: bubble-size var(--time, 4s) ease-in infinite var(--delay, 0s), bubble-move var(--time, 4s) ease-in infinite var(--delay, 0s);
+            animation: bubble-size var(--time, 4s) ease-in infinite var(--delay, 0s), bubble-move var(--time, 4s) ease-in infinite var(--delay, 0s);
+    transform: translate(-50%, 100%);
+  }
+  body .footer .content {
+    z-index: 2;
+    
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 4rem;
+    padding: 2rem;
+    background: var(--footer-background);
+  }
+  body .footer .content a,
+  body .footer .content p {
+    color: #f5f7fa;
+    text-decoration: none;
+  }
+  body .footer .content b {
+    color: white;
+  }
+  body .footer .content p {
+    margin: 0;
+    font-size: 0.75rem;
+  }
+  body .footer .content > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: inline-block;
+  }
+  body .footer .content > div > div {
+    margin: 0.25rem 0;
+  }
+  body .footer .content > div > div > * {
+    margin-right: 0.5rem;
+  }
+  body .footer .content > div .image {
+    align-self: center;
+    width: 4rem;
+    height: 4rem;
+    margin: 0.25rem 0;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  @-webkit-keyframes bubble-size {
+    0%, 75% {
+      width: var(--size, 4rem);
+      height: var(--size, 4rem);
+    }
+    100% {
+      width: 0rem;
+      height: 0rem;
+    }
+  }
+  
+  @keyframes bubble-size {
+    0%, 75% {
+      width: var(--size, 4rem);
+      height: var(--size, 4rem);
+    }
+    100% {
+      width: 0rem;
+      height: 0rem;
+    }
+  }
+  @-webkit-keyframes bubble-move {
+    0% {
+      bottom: -4rem;
+    }
+    100% {
+      bottom: var(--distance, 10rem);
+    }
+  }
+  @keyframes bubble-move {
+    0% {
+      bottom: -4rem;
+    }
+    100% {
+      bottom: var(--distance, 10rem);
+    }
+  }
+
+/*--------------------------------------------------MODA---------------------------------------------------------------*/
+
+.section7{
+  padding-top: 1%;
+  height: 700px;
+  width: 100%;
+}
+
+.video1{
+  margin-left: 20%;
+  position: absolute;
+}
+
+.video2{
+  margin-left:55%;
+}
+
+
+/*---------------------------------------------------MENU------------------------------------------------------------------*/
+
+.fa, .far, .fas{
+  color: white;
+  letter-spacing: 25px;
+  margin-left: 10px;
+  font-size: 30px;
+}
+
+.main-menu:hover,nav.main-menu.expanded {
+width:250px;
+overflow:visible;
+}
+
+
+
+/*BARRA DEL MENU*/
+.main-menu {
+background:#212121;
+border-right:1px solid #e5e5e5;
+position:fixed;
+top:0;
+bottom:0;
+height:100%;
+left:0;
+width:60px;
+overflow:hidden;
+-webkit-transition:width .05s linear;
+transition:width .10s linear;
+z-index:10000;
+}
+
+.main-menu>ul {
+margin:7px 0;
+margin-top: 50px;
+margin-bottom: 30px;
+}
+
+.main-menu li {
+position:relative;
+display:block;
+width:25px;
+}
+
+
+/*MENU LETRAS*/
+.main-menu li>a {
+  position:relative;
+  display:table;
+  letter-spacing: 2px;
+  margin-top: 100px;
+  border-collapse:collapse;
+  border-spacing:30px;
+  color:rgb(255, 255, 255);
+  font-family: arial;
+  font-size: 20px;
+  text-decoration:none;
+  -webkit-transition:all .1s linear;
+  transition:all .1s linear;
+  
+}
+
+.main-menu .nav-icon {
+  position:relative;
+  display:table-cell;
+  width:60px;
+  height:36px;
+  text-align:center;
+  vertical-align:middle;
+  font-size:18px;
+}
+
+.main-menu .nav-text {
+position:relative;
+display:table-cell;
+vertical-align:middle;
+width:190px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.main-menu>ul.logout {
+position:absolute;
+left:0;
+bottom:0;
+}
+
+.no-touch .scrollable.hover {
+overflow-y:hidden;
+}
+
+.no-touch .scrollable.hover:hover {
+overflow-y:auto;
+overflow:visible;
+}
+
+a:hover,a:focus {
+text-decoration:none;
+}
+
+nav {
+-webkit-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+-o-user-select:none;
+user-select:none;
+}
+
+nav ul,nav li {
+outline:0;
+margin:0;
+padding:0;
+}
+.main-menu li:hover>a,nav.main-menu li.active>a,.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus,.dropdown-menu>.active>a,.dropdown-menu>.active>a:hover,.dropdown-menu>.active>a:focus,.no-touch .dashboard-page nav.dashboard-menu ul li:hover a,.dashboard-page nav.dashboard-menu ul li.active a {
+color:#fff;
+background-color:#5fa2db;
+}
+.area {
+float: left;
+background: #e2e2e2;
+width: 100%;
+height: 10%;
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Titillium WebLight'), local('TitilliumWeb-Light'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/anMUvcNT0H1YN4FII8wpr24bNCNEoFTpS2BTjF6FB5E.woff) format('woff');
+}
+
+
+
+/*-------------------------------------------------------------------------MAPA--------------------------------------------------------------------------------------------*/
+
+.direccion{
+  position: absolute;
+  top: 26%;
+  left:60%;
+  width: 25%;
+  padding: 15px;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.section6{
+  background-color: white;
+  margin-bottom: 152px;
+  margin-top: 189px;
+}
+
+.h8{
+  letter-spacing: 3px;
+  color: black;
+  font-size: 40px;
+  font-weight: 90;
+}
+
+.wrapper {
+  max-width: 75%;
+  width: 40%;
+  height: auto;
+  position: relative;
+  top: 50%;
+  left: 30%;
+  transform: translate3d(-50%, -50%, 0);
+}
+
+.map {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 52.168447517%;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/22567/map.png);
+  background-size: contain;
+  /*box-shadow: 0 0 50px #000;*/
+  border-radius: 10px;
+}
+
+.line {
+  position: absolute;
+  width: 100%;
+  height: 0;
+  padding-bottom: 52.168447517%;
+  top: 0;
+}
+.line svg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.line svg path {
+  fill-opacity: 0;
+  stroke: #f00;
+  stroke-width: 5;
+  stroke-dasharray: 870;
+  stroke-dashoffset: 870;
+  animation-name: draw;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/*------------------------------------CONTACTO---------------------------------*/
+form{
+  width: 50%;
+  height: 100%;
+  margin-left: 25%;
+  padding: 50px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.section4{
+  width: 100%;
+  height: 700px;
+  margin-top:2%;
+}
+
+#boton-enviar{
+  margin-top: 2%;
+  width: 30%;
+}
+
+#boton-enviar:hover{
+  background-color: #F2CEAE;
+  transform: translateY(-2px);
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
